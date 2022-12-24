@@ -1,0 +1,19 @@
+{
+  "name": "bakerpress",
+  "version": "1.0.0",
+  "description": "A guide to baking wholegrain breads",
+  "main": "index.js",
+  "repository": "https://github.com/jeanine-farrar/bakerpress",
+  "author": "Jeanine",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.33",
+    "vue": "^3.2.45"
+  }
+}
